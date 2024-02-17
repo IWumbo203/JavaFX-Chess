@@ -1,5 +1,3 @@
-import com.sun.javafx.css.FontFace.FontFaceSrcType;
-
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
@@ -104,6 +102,7 @@ public class TopBar extends HBox{
 	
 	public void determineCheckmate() {
 		checkmate.setText("CHECKMATE");
+		System.out.println("Checkmate called");
 	}
 	
 	public VBox getContainer() {

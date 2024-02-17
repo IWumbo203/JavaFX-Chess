@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class ChessProgram extends Application {
 	
-    public static final int WINSIZE_X = 950, WINSIZE_Y = 950;
+    public static final int WINSIZE_X = 800, WINSIZE_Y = 800;
     private final String WINTITLE = "Chess";
 
 	@Override
